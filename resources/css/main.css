@@ -1,0 +1,241 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.preloader{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+body{
+    /*for testing*/
+    color: white;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: none!important;
+    /* Gradient background */
+    background: linear-gradient(to right, pink, rgba(253, 192, 255, 0.353));
+}
+
+.container{
+    opacity: 0;
+}
+#authorName{
+    text-decoration: underline;
+}
+.noise {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 1;
+}
+#c1{
+    position: absolute;
+    top: 100vh
+}
+.c1-items{
+    font-size: 12px;
+    line-height: 40px;
+    font-weight: 100;
+}
+
+.contentArea1{
+    background-color: white;
+    color: black;
+    position: absolute;
+    top: 150vh;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80vw;
+    height: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    height: auto;
+    z-index: 100;
+    box-shadow: 5px 20px 20px rgba(0, 0, 0, 0.485);
+}
+
+
+.contentAreaWrapper{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+/*
+.roundAvatarWrapper{
+    width: 20vh;
+    height: 20vh;
+    border-radius: 50%;
+    background-image: url('../img/bmw.png');
+    background-size: 20vw 20vh ;
+    background-size: cover;
+    background-position: center;
+}*/
+.avatarAndBasics{
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 500;
+}
+
+.universalLine{
+    width: 2px;
+    height: 390vh;
+    background-color: rgba(160, 160, 160, 0.312);
+    position: absolute;
+    left: 50%;
+    top: 210%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    opacity: 0;
+}
+#avatar{
+    width: 20vh;
+    height: 20vh;
+    border-radius: 50%;
+    z-index: 500;
+}
+#box1{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: white;
+    color: black;
+    width: 80vw;
+    height: auto;
+    z-index: 500;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    box-shadow: 2px;
+    box-shadow: 5px 20px 20px rgba(0, 0, 0, 0.485);
+}
+.arrow{
+    color: red;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.in-box-image{
+    width: 80vw;
+    height: auto;
+    border-radius: 20px;
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0%;
+}
+
+#c2{
+    position: absolute;
+    top: 210vh ;
+}
+
+.contentArea2{
+    padding: 10px 20px 10px 20px;
+    color: black;
+    width: 80vw;
+    height: auto;
+    background-color: white;
+    position: absolute;
+    top: 255vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    box-shadow: 5px 20px 20px rgba(0, 0, 0, 0.485);
+    z-index: 500;
+}
+
+.debugVersion{
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    color: black;
+    z-index: 999999;
+}
+
+.content-footer-img{
+    width: 80vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#c1-footer-img{
+    background-image: url('../img/amayori-bg1-cropped.png');
+    height: 40vh;
+    background-position: center;
+    border-radius: 20px;
+    filter: blur(2px);
+}
+
+.btn-inside-img{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#c2-footer-img{
+    background-image: url('../img/ft2.jpg');
+    height: 40vh;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.contentArea3{
+    padding: 10px 20px 10px 20px;
+    color: black;
+    width: 80vw;
+    height: auto;
+    background-color: white;
+    position: absolute;
+    top: 380vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    box-shadow: 5px 20px 20px rgba(0, 0, 0, 0.485);
+    z-index: 500;
+}
+
+#f721c26dac1256128{
+    position: absolute;
+    top: 83%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#c3{
+    position: absolute;
+    top: 310vh;
+}
+
+.active{
+    opacity: 100;
+}
+
+.inactive{
+    opacity: 0;
+    pointer-events: none;
+}
+#loaderAnimation{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
