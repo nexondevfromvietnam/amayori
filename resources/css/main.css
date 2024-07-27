@@ -14,7 +14,7 @@ html{
 body{
     /*for testing*/
     color: white;
-    font-family: "Be Vietnam Pro", sans-serif;
+    font-family: "Comfortaa", sans-serif;
     font-weight: 300;
     font-style: normal;
     text-decoration: none!important;
@@ -91,11 +91,11 @@ body{
 
 .universalLine{
     width: 2px;
-    height: 390vh;
+    height: 500vh;
     background-color: rgba(160, 160, 160, 0.312);
     position: absolute;
     left: 50%;
-    top: 210%;
+    top: 280%;
     transform: translate(-50%, -50%);
     z-index: 100;
     opacity: 0;
@@ -238,4 +238,31 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+}
+
+#goToTopImg{
+    width: 10vh;
+    position: fixed;
+    z-index: 600;
+    right: 10px;
+    bottom: 10px;
+}
+
+.contentArea4{
+    padding: 10px 20px 10px 20px;
+    color: black;
+    width: 80vw;
+    height: auto;
+    background-color: white;
+    position: absolute;
+    top: 500vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    box-shadow: 5px 20px 20px rgba(0, 0, 0, 0.485);
+    z-index: 500;
+}
+#c4{
+    position: absolute;
+    top: 480vh;
 }
