@@ -7,13 +7,15 @@
     <link rel="icon" type="image/x-icon" href="./resources/img/amayori-logo.png"/>
     <link type="text/css" rel="stylesheet" href="./resources/css/main.css"/>
     <link type="text/css" rel="stylesheet" href="./resources/css/btn.css"/>
+    <!--Third-party binaries-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!--Begin Google Fonts Tags-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Comfortaa:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <!--Javascript Link Tags-->
     <script src="./resources/jscript/preload.js"></script>
-    <script src="./resources/jscript/main.js"></script>
 </head>
 <body>
     <div class="universalLine">
@@ -23,18 +25,25 @@
     <div class="preloader">
         <img id="loaderAnimation" width="50%" height="auto" src="./resources/img/loader2.gif"/>
     </div>
+    <a href="#top">
+        <div class="roundBtn" id="gotoTop">
+            <img id="goToTopImg" src="./resources/img/gototop.png" alt="go to top"/>
+        </div>
+    </a>
     <div class="container">
         <div class="avatarAndBasics">
             <div class="roundAvatarWrapper">
+                <!--User avatar-->
                 <img src="./resources/img/alya.png" id="avatar"/>
             </div>
             <br>
         </div>
         <div id="box1">
             <div id="in-box1">
+                <!--Basic-->
                 <h2 id="authorName">Nguyen Dang Quang Minh</h2>
                 <p id="aboutMe">An indie developer, landscape photographer, and a drone pilot</p>
-                <p>15 years old, from Vietnam🇻🇳</p>
+                <p>15 years old, from Vietnam 🇻🇳</p>
                 <br>
                 <p><a href="#c1"><button>More</button></a></p>
             </div>
@@ -68,15 +77,26 @@
                 <h1 style="font-weight: normal;text-align: center;font-weight: 100;">My taste in music - anime - etc...</h1>
                 <h3 style="font-weight: normal;text-align: center;font-weight: 100;">Music</h3>
                 <li class="c1-items">A-POP, EDM, Dance, Electro-POP,...</li>     
-                <li class="c1-items">>Favorite artists: supercell, Porter Robinson, ReoNa,...</li>   
-                <li class="c1-items">>Favorite singers: nakotanmaru, Remind, mizuki</li>
+                <li class="c1-items">Favorite artists: supercell, Porter Robinson, ReoNa,...</li>   
+                <li class="c1-items">Favorite singers: nakotanmaru, Remind, mizuki,...</li>
                 <li class="c1-items">My suggestions: takt. - supercell | Lilas - Sawano Hiroyuki | Kyoukaisen - amazarashi</li>
                 <h3 style="font-weight: normal;text-align: center;font-weight: 100;">Anime</h3>
                 <li class="c1-items">Favorite type: Mecha, Romcom, Isekai, School life,...</li>
-                <li class="c1-items">My suggestions: 86 Eighty Six</li>
+                <li class="c1-items">My suggestion: 86 Eighty Six</li>
+            </div>
+            <div class="content-footer-img" id="c2-footer-img"><a class="btn-inside-img" id="f721c26dac1256128" href="#c4"><button>Links to my projects</button></a></div>
+        </div>
+        <div id="c4"><!--Scroll Element--></div>
+        <div class="contentArea4">
+            <div class="contentAreaWrapper">
+                <h1 style="font-weight: normal;text-align: center;font-weight: 100;">My projects</h1>
+                <li class="c1-items">Current project [Guest closed]: <a href="https://beta.ndqm.site">beta.ndqm.site</a></li>
+                <li class="c1-items">O2 Production [archived]: <a href="https://o2production.ndqm.site">o2production.ndqm.site</a></li>
+                <li class="c1-items">Landing Page [for download and archive - current closed]: <a href="https://archive.ndqm.site">archive.ndqm.site</a></li>
             </div>
             <div class="content-footer-img" id="c2-footer-img"><a class="btn-inside-img" id="f721c26dac1256128" href="#top"><button>Back to top</button></a></div>
         </div>
     </div>
 </body>
+<script src="./resources/jscript/main.js"></script>
 </html>
